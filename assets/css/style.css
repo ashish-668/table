@@ -85,7 +85,7 @@ section {
 .para-box {
     font-weight: 400;
     font-size: 14px;
-    line-height: 180%;
+    line-height:167%;
     letter-spacing: 0%;
     color: rgba(255, 255, 255, 1);
     opacity: 70%;
@@ -114,7 +114,7 @@ section {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    padding-bottom: 11px;
+    padding-bottom: 25px;
     gap: 70px;
 }
 
@@ -239,35 +239,9 @@ th {
     padding: 14px 0px 22px 0px;
 }
 
-/* 
-th:nth-child(1){
-    padding: 14px 36px 22px 36px;
-}
 
-th:nth-child(2){
-    padding: 14px 36px 22px 36px;
-    
-}
 
-th:nth-child(3){
-    padding: 14px 36px 22px 36px;
-}
-
-th:nth-child(4){
-    padding: 14px 36px 22px 36px;
-
-}
-
-th:nth-child(5){
-    padding: 14px 36px 22px 36px;
-
-}
-th:nth-child(6){
-    padding: 14px 36px 22px 36px;
-
-} */
-
-.non-opacity {
+ .non-opacity {
     font-weight: 400;
     font-size: 18px;
     line-height: 180%;
@@ -277,10 +251,10 @@ th:nth-child(6){
 
 td {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 189%;
+    /* font-size: 18px; */
+    line-height: 207%;
     letter-spacing: 0%;
     color: rgba(255, 255, 255, 1);
     opacity: 70%;
     padding: 14px;
-}
+} 
